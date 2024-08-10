@@ -7,7 +7,7 @@ let remainingTime;
 let intervalId;
 
 function startTimer(event) {
-  event.preventDefault;
+  event.preventDefault();
   const hours = parseInt(hoursInput.value);
   const minutes = parseInt(minutesInput.value);
   const seconds = parseInt(secondsInput.value);
