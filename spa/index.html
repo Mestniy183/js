@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .register,
+      .login {
+        border: 1px solid #000;
+        width: 500px;
+        padding: 30px;
+        background-color: black;
+        color: #fff;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      input {
+        padding: 10px;
+      }
+      button {
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+        background-color: #fff;
+      }
+      button:hover {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="register">
+      <h1>Регистрация</h1>
+      <input type="text" class="name" placeholder="Name" />
+      <input type="text" class="email-reg" placeholder="email-reg" />
+      <input type="text" class="password-reg" placeholder="password" />
+      <button class="btn-reg">Регистрация</button>
+    </form>
+
+    <form class="login">
+      <h1>Вход</h1>
+      <input type="text" class="email-login" placeholder="email-login" />
+      <input type="text" class="password-login" placeholder="password" />
+      <button class="btn-login">Вход</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
