@@ -122,6 +122,10 @@
 .task-active {
   background-color: green;
 }
+
+.link-active {
+  background-color: yellow;
+}
 .task__text {
   width: 80%;
   background-color: transparent;
@@ -178,7 +182,6 @@
 }
 
 .links a {
-  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -190,6 +193,20 @@
   color: black;
   border: 1px solid #000;
   margin-right: 20px;
+}
+
+.done {
+  color: darkred;
+}
+
+.progress {
+  color: darkred;
+}
+
+.empty {
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1366px) {

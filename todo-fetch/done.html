@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="links">
-    <a href="" class="done">Сделано</a>
-    <a href="" class="progress">Нужно сделать</a>
-  </div>
-  <div class="app">
-    <ul class="task-list"></ul>
-  </div>
-  <template id="template">
-    <li class="task">
-      <span class="count"></span>
-      <input type="text" class="task__text" />
-      <button class="task__delete"></button>
-    </li>
-  </template>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="links">
+      <a href="done.html" class="done">Сделано</a>
+      <a href="index.html" class="progress">Нужно сделать</a>
+    </div>
+    <div class="app">
+      <ul class="task-list"></ul>
+    </div>
+    <template id="template">
+      <li class="task">
+        <span class="count"></span>
+        <input type="text" disabled class="task__text" />
+        <button class="done-btn"></button>
+        <button class="task__delete"></button>
+      </li>
+    </template>
 
-  <script src="./script.js"></script>
-</body>
+    <script src="done.js"></script>
+  </body>
 </html>
